@@ -47,7 +47,7 @@ public class StateManager : MonoBehaviour
         currenState = state;
         currenState.EnterState(this);
     }
-    public void OnDrawGizmosSelected()
+    public void OnDrawGizmos()
     {
         
         
